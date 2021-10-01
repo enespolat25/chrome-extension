@@ -1,0 +1,13 @@
+{
+    "name": "Comic Sans Font",
+    "description": "Sayfadaki tüm yazı fontlarını Comic Sans'a dönüştürür.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
